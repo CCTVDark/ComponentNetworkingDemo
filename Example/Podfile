@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LGDNetworking_Example' do
+  pod 'LGDNetworking', :path => '../'
+
+  target 'LGDNetworking_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
