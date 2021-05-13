@@ -1,0 +1,6 @@
+framework module Pods_LGDNetworking_Example {
+  umbrella header "Pods-LGDNetworking_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module LGDNetworking {
+  umbrella header "LGDNetworking-umbrella.h"
+
+  export *
+  module * { export * }
+}
