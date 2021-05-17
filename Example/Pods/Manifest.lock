@@ -8,20 +8,17 @@ PODS:
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - LGDNetworking (from `../`)
+  - LGDNetworking
 
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
-
-EXTERNAL SOURCES:
-  LGDNetworking:
-    :path: "../"
+    - LGDNetworking
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  LGDNetworking: 11c1f37efbace4f6ec6a9396417085e058c8b709
+  LGDNetworking: e292b98403d0a0d29e88f78ee593eb6da33d67bb
 
-PODFILE CHECKSUM: df985430ce754b9c801cd725db08335efe5d6af5
+PODFILE CHECKSUM: 44fe5a8d87ab10d600ccca1f46382e0ad06d1e0e
 
 COCOAPODS: 1.9.3
